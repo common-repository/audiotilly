@@ -1,0 +1,48 @@
+#audiotilly-container {
+    font-family: Open Sans, Arial, sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#audiotilly-container .wp-audio-shortcode {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#audiotilly-container .audiotilly-copyright, #audiotilly-container .audiotilly-copyright a,
+#audiotilly-container .audiotilly-copyright, #audiotilly-container .audiotilly-copyright a:hover {
+    text-align: right;
+    font-weight: 400;
+    font-size: 10px;
+    color: #6d6d6d;
+    text-decoration: none;
+    background: none;
+}
+
+#audiotilly-container .mejs-time {
+    padding: 16px 6px 0 !important;
+    line-height: 10px !important;
+}
+
+iframe.audiotilly-iframe {
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+iframe.audiotilly-iframe.green {
+    height: 149px;
+    margin-top: -39px;
+    margin-bottom: -39px;
+}
+
+iframe.audiotilly-iframe.zaudio {
+    height: 117px;
+}
+
+iframe.audiotilly-iframe.mediaelement {
+    height: 54px;
+}
